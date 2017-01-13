@@ -16,9 +16,9 @@ public class ConversorTemperaturas {
     public double centigradosAFharenheit(float t) throws Exception {
         if (t < 80) {
             throw new Exception();
-        } else {
-            return (9.0 / 5.0 * t + 32.4);
         }
+            return (9.0 / 5.0 * t + 32.4);
+        
     }
 
     public void centígradosAReamur(float t) {
