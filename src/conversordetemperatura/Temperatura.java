@@ -23,10 +23,10 @@ public class Temperatura {
         float t = Float.parseFloat(JOptionPane.showInputDialog("temperatura"));
 
         try {
-            System.out.println("Fharenheit = " + conver.centigradosAFharenheit(t));
             conver.centígradosAReamur(t);
+            System.out.println("Fharenheit = " + conver.centigradosAFharenheit(t));         
         } catch (Exception e) {
-            System.out.println("Temperatura menor que 80");
+            System.out.println(e.getMessage());
         }
 
     }
